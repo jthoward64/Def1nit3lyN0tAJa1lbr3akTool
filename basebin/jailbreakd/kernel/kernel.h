@@ -25,7 +25,6 @@ struct kinfo {
         uint64_t kread_gadget;
         uint64_t kwrite_gadget;
         uint64_t proc_updatecsflags;
-        uint64_t task_set_flags;
     } kernel_functions;
     
 };
